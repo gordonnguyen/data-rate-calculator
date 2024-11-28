@@ -5,8 +5,10 @@ def calculate_data_rate(pcap_file):
   """
   Calculates and prints download data rate from a pcap file.
   """
-  capture = pyshark.FileCapture(pcap_file, display_filter='ip.src==104.198.203.13 && tcp.port==443')
   # Filter packets to only 104.198.203.13
+  # Change ip here
+  capture = pyshark.FileCapture(pcap_file, display_filter='ip.src==104.198.203.13 && tcp.port==443')
+
 
   total_length = 0
   start_time = capture[0].sniff_timestamp
@@ -24,6 +26,6 @@ def calculate_data_rate(pcap_file):
 
 if __name__ == "__main__":    
     if len(sys.argv) != 2:
-        print("Usage: python3 Har_Nguyen_UID.py <har_file>")
+        print("Usage: python3 Pcap_calculate_data.py <har_file>")
     else:
         calculate_data_rate(sys.argv[1])

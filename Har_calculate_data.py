@@ -13,6 +13,6 @@ def calculate_data_rate(har_file):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python3 Har_Nguyen_UID.py <har_file>")
+        print("Usage: python3 Har_calculate_data.py <har_file>")
     else:
         calculate_data_rate(sys.argv[1])

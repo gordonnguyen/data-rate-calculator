@@ -1,6 +1,6 @@
 # Data rate calculator
 
-Calculate data rate from .har and .pcap files in Mbps
+Calculate data rate from .har and .pcap files and print the result in Mbps
 
 ## Getting Started
 
@@ -12,11 +12,11 @@ UID.pcap: Pcap file used for the analysis.
 
 ### Usage
 
-* Calculate data rate from Pcap
-* python3 Pcap_calculate_data.py sample.pcap
+Calculate data rate from Pcap
+'python3 Pcap_calculate_data.py sample.pcap'
 
-* Calculate data rate from Har
-* python3 Har_Lastname_UID.py sample.har
+Calculate data rate from Har
+'python3 Har_Lastname_UID.py sample.har'
 
 
 ## Version History
