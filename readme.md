@@ -13,10 +13,10 @@ UID.pcap: Pcap file used for the analysis.
 ### Usage
 
 Calculate data rate from Pcap
-'python3 Pcap_calculate_data.py sample.pcap'
+`python3 Pcap_calculate_data.py sample.pcap`
 
 Calculate data rate from Har
-'python3 Har_Lastname_UID.py sample.har'
+`python3 Har_Lastname_UID.py sample.har`
 
 
 ## Version History
