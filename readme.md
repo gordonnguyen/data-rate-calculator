@@ -1,6 +1,6 @@
 # Data rate calculator
 
-Calculate data rate from .har and .pcap files and print the result in Mbps
+A Python script to calculate data rate from .har and .pcap files and print the result in Mbps
 
 ## Getting Started
 
